@@ -69,28 +69,29 @@ button {
 }
 
 
- @media (min-width:1120px) {
- main {
-  flex-direction: row;
-  max-width: fit-content;
-  gap: 16rem;
-  padding: 9rem 6rem;
-
+@media (min-width:1120px) {
+  main {
+   flex-direction: row;
+   max-width: fit-content;
+   gap: 16rem;
+   padding: 9rem 6rem;
+ 
+  }
+ } 
+ 
+ .recipe {
+   max-width: 43.5rem;
+ } 
+ 
+ .ingredients {
+   max-width: 52.5rem ;
+ } 
+   
+ 
+ button {
+   padding: 1rem 2rem;
+   font-size: 1.4rem;
+   line-height: 2.4rem;
  }
-} 
-
-.recipe {
-  max-width: 43.5rem;
-} 
-
-.ingredients {
-  max-width: 52.5rem ;
-} 
   
-
-button {
-  padding: 1rem 2rem;
-  font-size: 1.4rem;
-  line-height: 2.4rem;
-}
  
